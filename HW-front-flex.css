@@ -1,0 +1,82 @@
+.maindiv{
+    height: 400px;
+    width: 310px;
+    background-color: rgb(193, 238, 145)
+}
+
+.firstdiv{
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+height: 50px;
+width: 50px;
+background-color: rgb(223, 230, 243);
+margin:3px;
+/* border-style: solid;
+border-color: rgb(185, 179, 179);
+border-width: 0.04px; */
+}
+
+.longbox{
+height: 50px;
+width: 130px;
+background-color: rgb(252, 217, 205);
+margin:3px;
+/* border-style: solid;
+border-color: rgb(190, 113, 84);
+border-width: 0.01px; */
+}
+
+.seconddiv{
+    display: flex;
+    justify-content: space-between;
+}
+
+.seconddiv-1{
+    display: flex;
+}
+
+.thirddiv{
+    display: flex;
+    justify-content: space-between;
+}
+
+.fourthdiv{
+display: flex;    
+}
+
+.fourthdiv-1{
+display: flex;
+margin-left: 52px;
+}
+
+.fourthdiv-2{
+display: flex;  
+margin-left: 33px;
+}
+
+.fifthdiv{
+display: flex;  
+}
+.sixthdiv{
+display: flex;
+
+}
+.sixthdiv-1{
+display: flex;
+margin-left: 112px;
+}
+
+.sixthdiv-2{
+display: flex;
+margin-left: 39px;
+}
+
+.seventhdiv{
+display: flex;
+justify-content: space-between;
+margin-top: 7px;
+}
+
