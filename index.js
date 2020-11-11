@@ -79,4 +79,16 @@ console.log(replaceByItem(arr,'e','t'))
 
 exercise6
 
+function extract_numbers(str) {
+    let arr = str.split(" ");
+    let nums = arr.filter(function (elem) {
+        return !isNaN(elem);
+    });
+    let final = nums.map(function (val) {
+        return parseFloat(val);
+    });
+    return final
+}
+ let sent = "I have 2 apples and 3 pineapples"
+ console.log(extract_numbers(sent))
 
