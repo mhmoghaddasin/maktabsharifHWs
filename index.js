@@ -92,3 +92,20 @@ function extract_numbers(str) {
  let sent = "I have 2 apples and 3 pineapples"
  console.log(extract_numbers(sent))
 
+
+exercise7
+function remove_duplicate(array){
+    var uniqueArray = [];
+    
+    for(var value of array){
+        if(uniqueArray.indexOf(value) === -1){
+            uniqueArray.push(value);
+        }
+    }
+    return uniqueArray;
+}
+
+var names = ["John", "Peter", "Clark", "Harry", "John", "Alice"];
+console.log(remove_duplicate(names))
+
+
